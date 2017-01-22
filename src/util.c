@@ -1,3 +1,5 @@
+//Add one line for git testing
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -17,7 +19,7 @@ void update_sln(char *linked, char *sl)
 		linux_system_cmd_dump(__FILE__, __LINE__, sh_cmd);
 		SD2("sh_cmd",sh_cmd);
 	}
-//END2 ;
+//modified this lien END2 ;
 	sprintf(sh_cmd, "ln -s %s %s", linked, sl);
 	SD2("sh_cmd",sh_cmd);
 	linux_system_cmd_dump(__FILE__, __LINE__, sh_cmd);
